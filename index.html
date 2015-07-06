@@ -12,9 +12,46 @@
   </head>
 
   <body>
-    <div id="container" style="width:500px; height:500px;"></div>
+
+    <h1 align="center">Police Shootings across the United States</h1>
+    <div id="sourceinfo">
+      <p>*The source for the data used to build this map can be found <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202" target="_blank">at this link.</a></p>
+    </div>
+    <hr>
+    <div id ="wrapper">
+
+      <div id="container" style="width:500px; height:500px;"></div>
+      <div id="legendandinfo">
+        <div id="legend">
+          <h2 align="center">Legend</h2>
+          <p id="legendparagraph">
+            This map uses circles to show areas across the United States where there has been a police-involved shooting. More information about the victims are displayed below once a circle on the map has been clicked. 
+          </p>
+          <ul>
+            <li id="blueli"><span><em>Blue</em> circle denotes a male victim</span></li>
+            <li id="pinkli"><span><em>Pink</em> circle denotes a female victim</span></li>
+            <li id="yellowli"><span><em>Yellow</em> circle denotes that the victim's gender was not reported or is unknown</span></li>
+            <li id="purpleli"><span><em>Purple</em> circle denotes that there were both male and female victims in the area</span></li>
+            <li>A <em>bigger</em> circle denotes an older victim</li>
+            <li>The upper right corner on the map can be used to change the map's layers or
+            to display certain victims depending on whether they were killed or hit.</li> 
+          </ul>
+       </div>
+        <p id="victiminfo">
+          Zoom in and click on a circle to see more information about the incident plus the victim.
+        </p>
+      </div>
+    </div>
+    <hr>  
+    <div id="stats">
+      <p>
+        <span id="statstitle">Number of Incidents by Month</span><br>
+        <span id="monthstats">
+        </span>
+      </p>
+    </div>   
     <script>
-      
+      drawMap();
     	// This is where you should execute your drawMap function // 
 
     </script>

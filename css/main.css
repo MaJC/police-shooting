@@ -1,1 +1,102 @@
 /* You'll probably want to add some styles here */
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:600);
+@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+
+body {
+	background-color: #efebe8;
+	font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', sans-serif;;
+	color: #423f3b;
+}
+
+h1 {
+	font-family: 'Monda', 'Helvetica', sans-serif;
+	font-weight: 700;
+}
+
+#sourceinfo {
+	font-size: 12px;
+}
+
+hr {
+	border-color: #ff6666;
+	width: 100%;
+	border-radius: 2px;
+	border-width: 2px;
+}
+
+
+#wrapper {
+	display: table;
+	background-color: #2B2B2B;
+	color: #f5f5f5;
+	padding: 1em;
+}
+
+#container {
+	display: table-cell; 
+	padding: 5px;
+	color: black;
+	margin-top: -10px;
+}
+
+#legendandinfo {
+	display: table-cell; 
+	padding: 5px; 
+	padding-left: 20px;
+	font-family: 'Play', sans-serif;
+}
+
+#legend {
+	border: 1px solid #d3ffce; 
+	border-radius: 5px;
+	padding: 0.7em;
+	margin-top: -10px;
+}
+
+#legendparagraph {
+	font-size: 14px;
+}
+
+ul {
+	font-size: 17px; 
+	list-style-type:circle;
+}
+
+#blueli {
+	color: cyan;
+}
+
+#pinkli {
+	color: hotpink;
+}
+
+#purpleli {
+	color: darkorchid;
+}
+
+#yellowli {
+	color: gold;
+}
+
+ul > li > span {
+	color: white;
+}
+
+#victiminfo {
+	font-size: 20px; 
+	margin-top: 30px;
+}
+
+#victiminfo a {
+	color: #c6e2ff;
+}
+
+#statstitle {
+	font-size:25px; 
+	text-decoration: underline;
+}
+
+#monthstats {
+	font-size:25px;
+}
